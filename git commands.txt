@@ -17,3 +17,6 @@ git add *
 
 #commit files with a comment
 git commit -m "my first commit"
+
+# clone git repository
+git clone
