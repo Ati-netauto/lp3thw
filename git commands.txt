@@ -1,0 +1,19 @@
+#initialize the directory
+git init
+
+
+#configure user and email
+git config --global user.name Atul Pawar
+git config --global user.email atulpawar@hotmail.com
+
+
+#configure origin
+git remote add origin https://github.com/Ati-netauto/lp3thw.git
+
+
+
+#add files to local staging area
+git add *
+
+#commit files with a comment
+git commit -m "my first commit"
