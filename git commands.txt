@@ -1,16 +1,12 @@
 #initialize the directory
 git init
 
-
 #configure user and email
 git config --global user.name Atul Pawar
 git config --global user.email atulpawar@hotmail.com
 
-
 #configure origin
 git remote add origin https://github.com/Ati-netauto/lp3thw.git
-
-
 
 #add files to local staging area
 git add *
@@ -20,3 +16,36 @@ git commit -m "my first commit"
 
 # clone git repository
 git clone
+
+#Git process
+clone > git checkout> Edit > Add > commit
+
+#clone remote repository
+git clone https://github.com/CiscoDevNet/dne-dna-code
+
+#create and checkout local branch
+git checkout -b <new branch name>
+
+#change directory
+cd dne-dna-code
+
+#check status
+git status
+
+#fetch
+git fetch
+
+#check the difference
+changes-git diff
+
+#delete a branch
+git branch --delete --force <branch name>
+
+#incrementally commit changes
+git add <new or modified file>
+
+#commit changes
+git commit -m "commit message"
+
+#~/-shorthand for the current user's home folder
+create python3 virtual env- python3 -m venv /path/to/new/virtual/environment
