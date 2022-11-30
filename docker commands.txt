@@ -1,0 +1,7 @@
+# download a docker image from docker github
+docker run -a ubuntu
+# download jenkis docker image
+docker pull jenkins/jenkins
+
+# remove all images without at least one container associated to them.
+docker image prune -a
